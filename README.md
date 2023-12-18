@@ -22,3 +22,18 @@ Giải thích:
 
 ### Mô hình
 
+### Các đặc tính của mô hình
+
+## 2.GARCH
+
+### Mô hình
+
+### Các đặc tính của mô hình
+
+## 3.Cách chọn bậc của mô hình PACF
+
+## 4. Kiểm định mô hình như thế nào 
+
+## 5.Cách deploy mô hình 
+
+## 6.So sánh 2 mô hình 
