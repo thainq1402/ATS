@@ -33,11 +33,11 @@ Dịch thô : Lớp phương trình có phương sai thay đổi theo tự hồi
     + Phương trình phương sai 
 
 ### Các đặc tính của mô hình
-    -  Tính ổn định của mô hình 
-    - Chuỗi chuẩn hoá (- trung bình)/ độ lệch chuẩn 
-    - Ước lượng với giả định với phân phối nào thì phần dư cũng phải tuân theo pp đó
+- Tính ổn định của mô hình 
+- Chuỗi chuẩn hoá (- trung bình)/ độ lệch chuẩn 
+- Ước lượng với giả định với phân phối nào thì phần dư cũng phải tuân theo pp đó
 ### Demo 
-    + Link: https://www.youtube.com/@ritvikmath
++ Link: https://www.youtube.com/@ritvikmath
 
 
 ## 2.GARCH 
@@ -48,7 +48,7 @@ Mô hình chỉnh sửa bổ sung các yếu tố liên quan tới HÀM TRUNG B�
 ### Các đặc tính của mô hình
 
 ### Deploy mô hình
-    + Link:https://www.kaggle.com/code/wangqiyuan/value-at-risk-estimation-using-garch-model
++ Link:https://www.kaggle.com/code/wangqiyuan/value-at-risk-estimation-using-garch-model
 
 
 ## 3.Cách chọn bậc của mô hình PACF
@@ -56,13 +56,13 @@ Mô hình chỉnh sửa bổ sung các yếu tố liên quan tới HÀM TRUNG B�
 ## 4.Ước lượng mô hình
 
 ### 4.1 Xác định mô hình fit best cho chuỗi thời gian (vd như ARMA,AR,MA)
-    - Vẽ ACF, PACF -> xác định bậc của AR và MA -> Kiểm định giả thuyết xem nó có ý nghĩa thống kế hay không
-        + Keyword: P value, nghiệm nằm trong đường tròn đơn vị 
-        + phân phối chuẩn -> Không
-        + tính nghịch đảo và nhân quả 
-    - Phần dư
-    - kiểm tra phần dư  xem có tương quan không 
-    - Thống kê kiểm định của phương trình trung bình
+- Vẽ ACF, PACF -> xác định bậc của AR và MA -> Kiểm định giả thuyết xem nó có ý nghĩa thống kế hay không
+    + Keyword: P value, nghiệm nằm trong đường tròn đơn vị 
+    + phân phối chuẩn -> Không
+    + tính nghịch đảo và nhân quả 
+- Phần dư
+- kiểm tra phần dư  xem có tương quan không 
+- Thống kê kiểm định của phương trình trung bình
 
     Bước 1: Xác định mô hình trung bình (xem có suất hiện AR MA hay không)
     Bước 2: Kiểm tra hiệu ứng ARCH 
@@ -75,7 +75,10 @@ Mô hình chỉnh sửa bổ sung các yếu tố liên quan tới HÀM TRUNG B�
 
 
 ## 5. Kiểm định mô hình như thế nào 
-    ### Metric để đánh giá mô hình 
+
+### Metric để đánh giá mô hình 
+- RMSE
+
 
 ## 6.Cách deploy mô hình 
 
