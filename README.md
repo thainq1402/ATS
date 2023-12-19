@@ -11,7 +11,8 @@ Dịch thô : Lớp phương trình có phương sai thay đổi theo tự hồi
 ### Tổng quan
 - Mô hình thống kê sử dụng trong tài chính định lượng để nghiên cứu sự biến động (volatility) của lợi nhuận ( dispersion - dựa trên các lợi nhuận trong quá khứ)
     + https://www.youtube.com/watch?v=Li95a2biFCU&t=47s
-    + link: https://www.investopedia.com/terms/v/volatility.asp
+    + https://www.investopedia.com/terms/v/volatility.asp
+    + https://machinelearningmastery.com/develop-arch-and-garch-models-for-time-series-forecasting-in-python/
 - Thường sử dụng để ước lượng các rủi ro 
 - Mô hình có điều kiện do sử dụng  các giá trị từ quá khứ
 - Work bezt for the high frequency data (hourly,daily,monthly...)
@@ -32,11 +33,9 @@ Dịch thô : Lớp phương trình có phương sai thay đổi theo tự hồi
     + Phương trình phương sai 
 
 ### Các đặc tính của mô hình
-    - Tính ổn định của mô hình 
+    -  Tính ổn định của mô hình 
     - Chuỗi chuẩn hoá (- trung bình)/ độ lệch chuẩn 
-    - Ước lượng với giả định với phân phối nào thì phần dư cũng phải tuân theo pp đó 
-    - 
-
+    - Ước lượng với giả định với phân phối nào thì phần dư cũng phải tuân theo pp đó
 ### Demo 
     + Link: https://www.youtube.com/@ritvikmath
 
@@ -48,12 +47,27 @@ Mô hình chỉnh sửa bổ sung các yếu tố liên quan tới HÀM TRUNG B�
 
 ### Các đặc tính của mô hình
 
+### Deploy mô hình
+    + Link:https://www.kaggle.com/code/wangqiyuan/value-at-risk-estimation-using-garch-model
+
+
 ## 3.Cách chọn bậc của mô hình PACF
 
 ## 4.Ước lượng mô hình
 
-### 4.1
-    - 
+### 4.1 Xác định mô hình fit best cho chuỗi thời gian (vd như ARMA,AR,MA)
+    - Vẽ ACF, PACF -> xác định bậc của AR và MA -> Kiểm định giả thuyết xem nó có ý nghĩa thống kế hay không
+        + Keyword: P value, nghiệm nằm trong đường tròn đơn vị 
+        + phân phối chuẩn -> Không
+        + tính nghịch đảo và nhân quả 
+    - Phần dư
+    - kiểm tra phần dư  xem có tương quan không 
+    - Thống kê kiểm định của phương trình trung bình
+
+    Bước 1: Xác định mô hình trung bình (xem có suất hiện AR MA hay không)
+    Bước 2: Kiểm tra hiệu ứng ARCH 
+    Bước 3: Kiểm định mô hình
+
 
 ### 4.2
 
@@ -61,6 +75,7 @@ Mô hình chỉnh sửa bổ sung các yếu tố liên quan tới HÀM TRUNG B�
 
 
 ## 5. Kiểm định mô hình như thế nào 
+    ### Metric để đánh giá mô hình 
 
 ## 6.Cách deploy mô hình 
 
