@@ -28,9 +28,7 @@ Dịch thô : Lớp phương trình có phương sai thay đổi theo tự hồi
 - Sử dụng sau khi đã fit được mô hình ARMA 
 
 ### Mô hình
-- Bao gồm 2 phương trình:
-    + Phương trình trung bình Y_t = /Muy_t +u_t
-    + Phương trình phương sai 
+
 
 ### Các đặc tính của mô hình
 - Tính ổn định của mô hình 
@@ -40,6 +38,15 @@ Dịch thô : Lớp phương trình có phương sai thay đổi theo tự hồi
 + Link: https://www.youtube.com/@ritvikmath
 ### Paper 
 + Link: https://sci-hub.se/10.1080/096031000416433
+
+### Ưu điểm 
+- so với các phương pháp khác ARCH hay GARCH tốt hơn do có thể dự báo với những chuỗi có phương sai thay đổi 
+### Nhược điểm 
+- Cần qua nhiều bước xử lý 
+    + Cần 1 bước biến đổi nếu chuỗi không dừng 
+    + Cần tiềm hiểu nhiều hơn so với những kiến thức đã học do đây là lớp mô hình làm việc với phương sai thay đổi 
+- Cần phải áp dụng các mô hình ARMA,AR,MA trước đó
+
 
 
 ## 2.GARCH 
