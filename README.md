@@ -38,6 +38,8 @@ Dịch thô : Lớp phương trình có phương sai thay đổi theo tự hồi
 - Ước lượng với giả định với phân phối nào thì phần dư cũng phải tuân theo pp đó
 ### Demo 
 + Link: https://www.youtube.com/@ritvikmath
+### Paper 
++ Link: https://sci-hub.se/10.1080/096031000416433
 
 
 ## 2.GARCH 
