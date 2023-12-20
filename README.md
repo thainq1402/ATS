@@ -23,6 +23,8 @@ Dịch thô : Lớp phương trình có phương sai thay đổi theo tự hồi
 - phenomenon of volatility clustering: 1 khoảng thời gian nào đó trong chuỗi thời gian, biên độ lợi nhuận giao động mạnh hơn so với các khoảng thời gian còn lại,
 - Heteroskedasticity:Phần dư không có phương sai cố định
 
+![Alt text](image-1.png)
+
 ### Sử dụng 
 - Sử dụng cho các chuỗi có khoảng thời gian có phương sai tăng hoặc giảm 
 - Sử dụng sau khi đã fit được mô hình ARMA 
