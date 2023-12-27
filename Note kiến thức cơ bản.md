@@ -19,3 +19,6 @@
 - Lớp mô hình này sẽ  capture cái kì vọng ( phương sai ) của nhiễu từ mô hình khác.
 - Để dự báo thị trường tài chính chúng ta sẽ sử dụng ARCH và GARCH sau khi đã áp dụng các mô hình khác như ARIMA.
 
+# Giá trị kiểm định 
+- Giá trị thống kê - $\chi^2$
+
