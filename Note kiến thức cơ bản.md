@@ -9,3 +9,13 @@
 - Common appearance: timeseries whose variance increase with time
 - Biến đổi Box-Cox làm cho phân phối dữ liệu trở nên chuẩn hơn (che giấu Heteroiskedasticity)
 - Phương sai của bước $X_t$ dựa vào phương sai của bước $X_{t-1}$
+
+# Volatility Clustering
+- 
+
+# Mô hình ARCH/GARCH/ TARCH 
+- Mô hình hoá những phương sai của những biến động đó - volatility
+- Mô hình này không dự báo xấp xỉ các giá trị ước lượng.
+- Lớp mô hình này sẽ  capture cái kì vọng ( phương sai ) của nhiễu từ mô hình khác.
+- Để dự báo thị trường tài chính chúng ta sẽ sử dụng ARCH và GARCH sau khi đã áp dụng các mô hình khác như ARIMA.
+
