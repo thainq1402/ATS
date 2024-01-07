@@ -21,4 +21,9 @@
 
 # Giá trị kiểm định 
 - Giá trị thống kê - $\chi^2$
+# P-value
+- là 1 số liệu thống kê được sử dụng trong các mô hình để đánh giá mức độ hỗn loạn của các giả thuyết không đúng và dữ liệu quan sát
+- Trong kiểm định thống kê , $\textbf{P-Value}$ là xác suất quan sát được 1 giá trị thống kê (1 giả thuyết) 
 
+
+# Chưa hiểu 

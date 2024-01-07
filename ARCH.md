@@ -4,7 +4,7 @@
 - Tổng quan: phương sai dựa trên bình phương sai số (sai số dự báo)
 - Nhắc lại kiến thức:
     + AR model: giá trị hiện tại sẽ phụ thuộc vào $p$ giá trị trước đó cái mà giá trị $p_h$ tương quan mạng với giá trị hiện tại
-- Mô hình ARCH: giá trị phương sai hiện tại sẽ dựa vào %p_h% giá trị sai số bình phương (SSE) với các hệ số  $\alpha$ ( sai số là khoảng cách giữa giá trị quan sát và giá trị dự báo của mô hình khác)
+- Mô hình ARCH: giá trị phương sai hiện tại sẽ dựa vào $p_h$ giá trị sai số bình phương (SSE) với các hệ số  $\alpha$ ( sai số là khoảng cách giữa giá trị quan sát và giá trị dự báo của mô hình khác)
 
 ![Alt text](<Mô hình ARCH - Kaggle.png>)
 
@@ -37,3 +37,7 @@
         + Ngược lại
 - Test cho ACF
 - Xác định xem chuỗi đã cho có phải nhiễu trắng hay không
+- Sử dụng Ljung-Box lên $\textbf{nhiễu}$ để tìm kiếm $\textbf{tự tương quan}$
+    + $H_0$: dữ liệu là độc lập và không tương quan
+    + $H_a$: tồn tại tương quan
+    
