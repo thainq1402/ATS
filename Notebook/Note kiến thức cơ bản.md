@@ -26,4 +26,18 @@
 - Trong kiểm định thống kê , $\textbf{P-Value}$ là xác suất quan sát được 1 giá trị thống kê (1 giả thuyết) 
 
 
+# Các thông số của mô hình 
+### Phần 1: Thông tin tổng hợp
+- AIC, BIC, HQIC các chỉ số đo lường hiệu quả của mô hình. Thấp là chỉ số tốt
+### Phần 2: Thông tin ước lượng
+- ar.L1 ... ar.Ln: Các hệ số của thành phần phân phối hồi quy (AR) tương ứng các lag
+- sigma2: Phương sai của thành phần ngẫu nhiên không dự đoán. ( Nhiễu )
+### Phân 3: Kiểm định: Tương quan, Phương sai thay đổi, Kiểm địng về pp chuẩn
+- Ljung-Box (L1) (Q):  Kết quả kiểm định cho phần dư, kiểm tra tính không tương quan cho phần dư. Ở đây không tương quan cho lag = 1
+- Jarque-Bera (JB): Kiểm định phân phối cho phần dư (Kiểm định về phân phối chuẩn)
+
+Trong mô hình ARIMA ước lượng hệ số của AR sẽ được tiến hành bằng phương pháp "Hợp lý cực đại (Maximum likelihood)". 
+P >|z|: kiểm định giả thuyết bác bỏ giải thuyết H0 rằng trung bình hệ số = 0 ?
+Các mô hình có P-value khá to -> Không ảnh hưởng đến biến phụ thuộc (vni['Price'])
+
 # Chưa hiểu 
